@@ -1,0 +1,23 @@
+{
+  "name": "pw-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chia_du.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HBrulland/pw-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HBrulland/pw-course/issues"
+  },
+  "homepage": "https://github.com/HBrulland/pw-course#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1"
+  }
+}
