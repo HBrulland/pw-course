@@ -1,5 +1,0 @@
-git init : tao project
-git commit -m"init project": commnit code len project.
-git add file1 
-git commit -m”add file1”
-git add file

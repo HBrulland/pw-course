@@ -1,0 +1,4 @@
+git init : tao project
+git commit -m"init project": commnit code lên  project.
+git add file1 : add file vừa tạo staging
+git commit -m”add file1” commit code lên repo
