@@ -31,3 +31,37 @@ for (let i = 1; i <= 99; i++) {
     }
 }
 console.log(oddNumbs);
+
+// yeu cau 4
+
+const emailDomain = "example.com"
+const numberOfUsers = 5;
+console.log(`Generate emails for user1 to user${numberOfUsers}:`);
+for (let i = 1; i <= numberOfUsers; i++) {
+    const email = `user${i}@${emailDomain}`;
+    console.log(email);
+}
+
+// yeu cau 5
+const yearRevenue = [
+    { "month": 1, "total": 100 },
+    { "month": 2, "total": 120 },
+    { "month": 3, "total": 130 },
+    { "month": 4, "total": 140 },
+    { "month": 5, "total": 150 },
+    { "month": 6, "total": 160 },
+    { "month": 7, "total": 170 },
+    { "month": 8, "total": 180 },
+    { "month": 9, "total": 190 },
+    { "month": 10, "total": 210 },
+    { "month": 11, "total": 211 },
+    { "month": 12, "total": 212 }
+];
+
+let totalRevenue = 0;
+
+yearRevenue.forEach(month => {
+    totalRevenue += month.total;
+});
+
+console.log("Total Revenue:", totalRevenue);
