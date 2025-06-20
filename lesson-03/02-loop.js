@@ -14,7 +14,7 @@ const tableNumbers = [2, 3, 4, 5, 6, 7, 8, 9];
 const multipliers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 tableNumbers.forEach(tableNum => {
-    console.log(`\n--- Bảng cửu chương của ${tableNum} ---`);
+    console.log(`Bảng cửu chương của ${tableNum} ---`);
     multipliers.forEach(multiplier => {
         const result = tableNum * multiplier;
         console.log(`${tableNum} x ${multiplier} = ${result}`);

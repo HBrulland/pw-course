@@ -24,7 +24,7 @@ let student = {
     "name": "Huong",
     "grades": {
         "math": 9,
-        "english": "good"
+        "english": "8"
     }
 }
 console.log("grade of english :", student['grades']['english']);
