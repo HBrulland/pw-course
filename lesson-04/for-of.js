@@ -11,23 +11,23 @@ for (let letter of str) {
 
 //Tìm và in vị trí đầu tiên và cuối cùng của giá trị 3 trong arr 
 const arr = [1, 2, 3, 4, 3, 55, 23];
-let indexOfArray = [];
+let indexOfNumber3 = 0;
 for (i = 0; i < arr.length; i++) {
     if (arr[i] === 3) {
-        indexOfArray = i;
+        indexOfNumber3 = i;
         break;
     }
 }
-console.log("ví trí của số 3 đầu tiền là: " + indexOfArray);
+console.log("ví trí của số 3 đầu tiền là: " + indexOfNumber3);
 
 
 for (i = 0; i < arr.length; i++) {
     if (arr[i] === 3) {
-        indexOfArray = i;
+        indexOfNumber3 = i;
         continue;
     }
 }
-console.log("ví trí của số 3 cuối là: " + indexOfArray);
+console.log("ví trí của số 3 cuối là: " + indexOfNumber3);
 
 
 // 4 Lọc các phần tử xuất hiện 1 lần trong dupArr 
