@@ -16,7 +16,6 @@ let totalOfNumber = 0;
 for (let stuValue in student) {
     const numOnly = student[stuValue];
     if (typeof numOnly === 'number') {
-        //numberOnlyArr[stuValue] = numOnly;
         numberOnlyArr.push(numOnly);
 
     }
