@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 // Bi chan UIP nen phai chay web o local
 
-test('Add products to basket', async ({ page }) => {
+test('Add task', async ({ page }) => {
     await page.goto('http://127.0.0.1:5500/index.html');
 
     // Click click vào “Bài học 2: Product page” 
@@ -15,11 +15,6 @@ test('Add products to basket', async ({ page }) => {
     for (let i = 1; i <= 100; i++) {
         await inputTask.fill("task number" + [i]);
         await page.locator("//button[@id='add-task']").click();
-
-        // const addTaskButton = page.locator("//input[@id='add-task']");
-        // for (let i = 0; i < 100; i++) {
-        //     await addTaskButton.click();
-        // }
 
 
     }
